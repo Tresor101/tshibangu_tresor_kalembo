@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fontawesome.com/kits/b8724cbb12/use">
+    <script src="https://kit.fontawesome.com/b8724cbb12.js" crossorigin="anonymous"></script>        
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/home.css">
+    <title>Portfolio</title>
+</head>
+<body>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#" onclick="openPage('home')"><i class="fa fa-user"></i> Home</a>
+    <a href="#" onclick="openPage('about')"><i class="fa fa-address-card"></i>About Me</a>
+    <a href="#" onclick="openPage('service')"><i class="fa fa-list"></i>Services</a>
+    <a href="#" onclick="openPage('portfolio')"><i class="fa fa-briefcase"></i>Portfolio</a>
+  </div>
+  <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page-->
+  <div id="main" >
+      <div class="btn mb-3">
+        <a onclick="myFunctiondarkblue()" class="fa fa-moon btn btn-primary">Dark Modte</a>
+      </div>
+      <div class="btn mb-3">
+        <a onclick="myFunctionwhite()" class="fa fa-sun btn btn-primary">Light Mode</a>
+      </div>
+      <div class="btn mb-3">
+        <a onclick="openNav()" class="fa fa-bars btn btn-primary">Menu</a>
+      </div>
+      <div class="btn mb-3">
+        <a href="/Tresor K.pdf" class="btn btn-primary"><i class="fa fa-download"></i>Download CV</a>
+      </div>
+
+      <div id="home" class="tabcontent">
+        <div class="container">
+          <div class="card">
+            <img src="/photo.jpg" alt="Tresor" style="width:100%">
+            <h1>Tresor Kalembo Tshibangu</h1><hr>
+            <p class="title">Network Technician <br> Front End Developper <br> Asia Pacific University of Technology</p>
+            <p><a href="https://twitter.com/home"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/tresor-kalembo-tshibangu-7576701b5
+                "><i class="fa fa-linkedin"></i></a>
+                <a href="mailto:tresorignace@icloud.com"><i class="fa-solid fa-envelope"></i></a>
+                <a href="tel:+601128838430"><i class="fa fa-mobile-phone"></i>+601128838430</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div id="portfolio" class="tabcontent">
+        <h2>Portfolio</h2> <hr>
+        <div class="card" style="width: 100%;height: 80%;">
+          <img src="/photo.jpg" class="card-img-top">
+          <div class="card-body">
+            <p class="card-text">On the 6th of January 2022. I was humbled with the recognition from the school of Mathematics,Actuarial and Quantitaives Studies 
+              from APU with a certficate of appreciation for my time as a peer tutor. 
+              The Certificate was handed to me by Professor Doctor Rajasegeran Ramasamy who is the head of school of Mathematics,Actuarial and Quantitaives Studies,
+            and Doctor Hari Narayanan P. Ondiveeran who is president and Vice chancellor of Asia Pacific University of Technology.</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="service" class="tabcontent">
+        <h2>Services</h2><hr style="width:100%;height:5px;">
+        <div class="row">
+          <div class="column">
+            <div class="card">
+              <h3>Web Development Services</h3><hr style="width:100%;height:10px;">
+              <h5>Bootstrap 5</h5>
+                <p><span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span></p>
+                <h5>Flask framework</h5>
+                <p><span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span></p>
+                <h5>MongoDb</h5>
+                <p><span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span></p>
+                <h5>JavaScriptb</h5>
+                <p><span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span></p>
+                <h5>HTML</h5>
+                <p><span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span></p>
+                <h5>CSS</h5>
+                <p><span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span></p>
+            </div>
+          </div>
+        
+          <div class="column">
+            <div class="card">
+              <h3>Network Computing</h3><hr style="width:100%;height:5px;">
+                <h5>Data Center knowledge</h5>
+                <p><span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span></p>
+                <h5>switching configurations Layer 2 Security</h5>
+                <p><span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span></p>
+                <h5>Routing Configurations</h5>
+                <p><span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span></p>
+                <h5>CSS</h5>
+                <p><span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span></p>
+                <h5>CSS</h5>
+                <p><span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span></p>
+                <h5>CSS</h5>
+                <p><span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span></p>
+            </div>
+          </div>
+          
+          <div class="column">
+            <div class="card">
+              <h3>Teaching/Educator</h3><hr style="width:100%;height:5px;">
+              <h5>Communication skills</h5>
+                <p><span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span></p>
+              
+              <h5>Listening skills</h5>
+              <p><span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span></p> 
+              
+              <h5>Collaboration skills</h5>
+                <p><span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span></p> 
+              
+              <h5>Adaptability skills</h5>
+              <p><span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span></p>
+              <h5>Empathy skills</h5>
+              <p><span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span></p>   
+              <h5>Patience skills</h5>
+              <p><span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span></p>
+            </div>
+          </div>
+          
+          <div class="column">
+            <div class="card">
+              <h3>Card 4</h3>
+              <p>Some textA paragraph with a floating image. A paragraph with a floating image. 
+                A paragraph with a floating imageA paragraph with a floating image.
+              </p>
+              <p>Some text</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="about" class="tabcontent">
+            <h2>About Me</h2> <hr style="width:100%;height:5px;">
+            <div id="paragraph" style="width: 100%;height: 75%;background-color: cyan;">
+              <p> <img src="/photo.jpg" 
+                alt="Smiley face" style="float:left;width:400px;height:500px;border-radius: 10%;">
+                I am a final year student at Asia Pacific University interested in pursuing a career in ICT. 
+                I am currently doing my internship at Kidocode in the web development department. 
+                I know the basics of 5 programming languages namely C++, C, Java, COBOL, as well as Python. 
+                I know scripted languages such as HTML as well as CSS and JavaScript. I am also familiar with Flask and the bootstrap framework. 
+                In my 2nd year of college, I had the opportunity to learn about data centers as well in a module called Data Center Infrastructure. 
+                I gained knowledge on how to run a data center. I believe in the concept of knowing a bit of everything before mastering what matters. 
+                Even though I am pursuing a networking major, I still think that being able to work as a developer is a plus. 
+                Hence I am focusing on one of the best things that have happened to me while working at kidocode is the opportunity to work on my leadership skills. 
+                Besides, I was shortlisted for the SRC election held in September 2021 as well as among the student ambassador for the university. 
+                Unfortunately, my effort was not good enough to be named student nor was my popularity enough to be elected as an SRC member. 
+                Dale Earnhardt once said: "<i>second place is just the first loser.</i>" and I do believe that every loss is a bad thing only when you do not learn from it. 
+              </p>
+            </div>
+            
+      </div>
+  </div>
+  <script src="/Js/JavaScript.js"> </script>
+</body>
+</html>

@@ -37,7 +37,7 @@ function myFunctionwhite(){
     document.getElementById("main").style.color="black"; document.getElementById("home").style.color="black";
     document.getElementById("service").style.color="black"; document.getElementById("portfolio").style.color="black"; 
     document.getElementById("about").style.color="black";document.getElementById("paragraph").style.color="black";
-    document.getElementById("paragraph").style.background="white";
+    document.getElementById("paragraph").style.background="wheat";
   }
 function myFunctiondarkblue(){
     document.getElementById("main").style.background = 

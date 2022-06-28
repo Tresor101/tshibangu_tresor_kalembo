@@ -1,7 +1,7 @@
 body, html {
     height: 100%;
     margin: 0;
-    font-family: Arial;
+    font-family: 'Times New Roman', Times, serif;
     overflow: hidden;
     background-image: url("https://thumbs.gfycat.com/BlissfulScentedAustraliancattledog-max-1mb.gif");
   }
@@ -126,7 +126,7 @@ body, html {
     border:solid black;
     margin-left:20px;
   }
-  /* Responsive columns - one column layout (vertical) on small screens */
+  /* Responsive columns on smaller screens */
   @media screen and (max-width: 1280px) {
     .column {
       width: 100%;
